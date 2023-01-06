@@ -18,129 +18,20 @@ For this project, we’ll work with these libraries:
 
 ``` r
 install.packages('arules' , repos = "http://cran.us.r-project.org")
-```
-
-    ## package 'arules' successfully unpacked and MD5 sums checked
-
-    ## Warning: cannot remove prior installation of package 'arules'
-
-    ## Warning in file.copy(savedcopy, lib, recursive = TRUE): problem
-    ## copying ..\R-4.2.1\library\00LOCK\arules\libs\x64\arules.dll to ..
-    ## \R-4.2.1\library\arules\libs\x64\arules.dll: Permission denied
-
-    ## Warning: restored 'arules'
-
-    ## 
-    ## The downloaded binary packages are in
-    ##  ...\downloaded_packages
-
-``` r
 install.packages('arulesViz', repos = "http://cran.us.r-project.org")
-```
-
-    ## package 'arulesViz' successfully unpacked and MD5 sums checked
-    ## 
-    ## The downloaded binary packages are in
-    ##  ...\downloaded_packages
-
-``` r
 install.packages('ggplot2', repos = "http://cran.us.r-project.org")
-```
-
-    ## package 'ggplot2' successfully unpacked and MD5 sums checked
-    ## 
-    ## The downloaded binary packages are in
-    ##  ...\downloaded_packages
-
-``` r
 install.packages('plyr', repos = "http://cran.us.r-project.org")
-```
-
-    ## package 'plyr' successfully unpacked and MD5 sums checked
-    ## 
-    ## The downloaded binary packages are in
-    ##  ...\downloaded_packages
-
-``` r
 install.packages('dplyr', repos = "http://cran.us.r-project.org")
 ```
-
-    ## package 'dplyr' successfully unpacked and MD5 sums checked
-
-    ## Warning: cannot remove prior installation of package 'dplyr'
-
-    ## Warning in file.copy(savedcopy, lib, recursive = TRUE): problem
-    ## copying ..\R-4.2.1\library\00LOCK\dplyr\libs\x64\dplyr.dll to ..
-    ## \R-4.2.1\library\dplyr\libs\x64\dplyr.dll: Permission denied
-
-    ## Warning: restored 'dplyr'
-
-    ## 
-    ## The downloaded binary packages are in
-    ##  ...\downloaded_packages
 
 ### Loading Libraries and Dataset
 
 ``` r
 library(arules)
-```
-
-    ## Warning: package 'arules' was built under R version 4.2.2
-
-    ## Loading required package: Matrix
-
-    ## 
-    ## Attaching package: 'arules'
-
-    ## The following objects are masked from 'package:base':
-    ## 
-    ##     abbreviate, write
-
-``` r
 library(arulesViz)
-```
-
-    ## Warning: package 'arulesViz' was built under R version 4.2.2
-
-``` r
 library(ggplot2)
-```
-
-    ## Warning: package 'ggplot2' was built under R version 4.2.2
-
-``` r
 library(plyr)
-```
-
-    ## Warning: package 'plyr' was built under R version 4.2.2
-
-``` r
 library(dplyr)
-```
-
-    ## Warning: package 'dplyr' was built under R version 4.2.2
-
-    ## 
-    ## Attaching package: 'dplyr'
-
-    ## The following objects are masked from 'package:plyr':
-    ## 
-    ##     arrange, count, desc, failwith, id, mutate, rename, summarise,
-    ##     summarize
-
-    ## The following objects are masked from 'package:arules':
-    ## 
-    ##     intersect, recode, setdiff, setequal, union
-
-    ## The following objects are masked from 'package:stats':
-    ## 
-    ##     filter, lag
-
-    ## The following objects are masked from 'package:base':
-    ## 
-    ##     intersect, setdiff, setequal, union
-
-``` r
 Groceries_dataset <- read.csv("Groceries_dataset.csv")
 glimpse(Groceries_dataset)
 ```
