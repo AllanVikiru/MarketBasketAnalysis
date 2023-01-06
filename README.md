@@ -25,14 +25,14 @@ install.packages('arules' , repos = "http://cran.us.r-project.org")
     ## Warning: cannot remove prior installation of package 'arules'
 
     ## Warning in file.copy(savedcopy, lib, recursive = TRUE): problem
-    ## copying F:\R-4.2.1\library\00LOCK\arules\libs\x64\arules.dll to F:
+    ## copying ..\R-4.2.1\library\00LOCK\arules\libs\x64\arules.dll to ..
     ## \R-4.2.1\library\arules\libs\x64\arules.dll: Permission denied
 
     ## Warning: restored 'arules'
 
     ## 
     ## The downloaded binary packages are in
-    ##  C:\Users\Asus\AppData\Local\Temp\RtmpsNzGrs\downloaded_packages
+    ##  ...\downloaded_packages
 
 ``` r
 install.packages('arulesViz', repos = "http://cran.us.r-project.org")
@@ -41,7 +41,7 @@ install.packages('arulesViz', repos = "http://cran.us.r-project.org")
     ## package 'arulesViz' successfully unpacked and MD5 sums checked
     ## 
     ## The downloaded binary packages are in
-    ##  C:\Users\Asus\AppData\Local\Temp\RtmpsNzGrs\downloaded_packages
+    ##  ...\downloaded_packages
 
 ``` r
 install.packages('ggplot2', repos = "http://cran.us.r-project.org")
@@ -50,7 +50,7 @@ install.packages('ggplot2', repos = "http://cran.us.r-project.org")
     ## package 'ggplot2' successfully unpacked and MD5 sums checked
     ## 
     ## The downloaded binary packages are in
-    ##  C:\Users\Asus\AppData\Local\Temp\RtmpsNzGrs\downloaded_packages
+    ##  ...\downloaded_packages
 
 ``` r
 install.packages('plyr', repos = "http://cran.us.r-project.org")
@@ -59,7 +59,7 @@ install.packages('plyr', repos = "http://cran.us.r-project.org")
     ## package 'plyr' successfully unpacked and MD5 sums checked
     ## 
     ## The downloaded binary packages are in
-    ##  C:\Users\Asus\AppData\Local\Temp\RtmpsNzGrs\downloaded_packages
+    ##  ...\downloaded_packages
 
 ``` r
 install.packages('dplyr', repos = "http://cran.us.r-project.org")
@@ -70,14 +70,14 @@ install.packages('dplyr', repos = "http://cran.us.r-project.org")
     ## Warning: cannot remove prior installation of package 'dplyr'
 
     ## Warning in file.copy(savedcopy, lib, recursive = TRUE): problem
-    ## copying F:\R-4.2.1\library\00LOCK\dplyr\libs\x64\dplyr.dll to F:
+    ## copying ..\R-4.2.1\library\00LOCK\dplyr\libs\x64\dplyr.dll to ..
     ## \R-4.2.1\library\dplyr\libs\x64\dplyr.dll: Permission denied
 
     ## Warning: restored 'dplyr'
 
     ## 
     ## The downloaded binary packages are in
-    ##  C:\Users\Asus\AppData\Local\Temp\RtmpsNzGrs\downloaded_packages
+    ##  ...\downloaded_packages
 
 ### Loading Libraries and Dataset
 
